@@ -13,7 +13,7 @@ A/C
  * }
  */
 
-/*public class Code_6 {
+public class Code_6 {
 
     public int findpos(MountainArray mountainArr){
         int s=0,e=mountainArr.length()-1;
@@ -74,4 +74,3 @@ A/C
 
     }
 }
-*/
