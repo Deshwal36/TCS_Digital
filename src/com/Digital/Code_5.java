@@ -6,7 +6,7 @@ https://leetcode.com/problems/peak-index-in-a-mountain-array/
 public class Code_5 {
 
     public static void main(String[] args) {
-        int[] arr=new int[]{0,10,5,2};
+        int[] arr=new int[]{1,2,1,3,5,6,4};
         System.out.println(peakIndexInMountainArray(arr));
     }
 
