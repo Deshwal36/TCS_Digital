@@ -1,6 +1,6 @@
 package com.Digital;
 /*
-852. Peak Index in a Mountain Array
+852. Peak Index in a Mountain Array.
 https://leetcode.com/problems/peak-index-in-a-mountain-array/
  */
 public class Code_5 {
