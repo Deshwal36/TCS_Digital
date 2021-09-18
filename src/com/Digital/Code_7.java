@@ -46,11 +46,13 @@ public class Code_7 {
     static int search(int[] nums, int target) {
 
         int m=findpivot(nums);
-
-        int ans=binarySearch(nums,0,m,target);
-        if(ans==-1){
+        int ans=-1;
+        if(target<=nums[m]){
+            ans=binarySearch(nums,0,m,target);
+        }else{
             ans=binarySearch(nums,m+1,nums.length-1,target);
         }
+
 
         return ans;
 
