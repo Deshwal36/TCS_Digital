@@ -47,7 +47,7 @@ public class Code_7 {
 
         int m=findpivot(nums);
         int ans=-1;
-        if(target<=nums[m]){
+        if(target>=nums[0]){
             ans=binarySearch(nums,0,m,target);
         }else{
             ans=binarySearch(nums,m+1,nums.length-1,target);
